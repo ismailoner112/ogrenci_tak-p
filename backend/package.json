@@ -1,0 +1,50 @@
+{
+  "name": "Öğrenci-takip-backend",
+  "version": "1.0.0",
+  "description": "Öğrenci Takip Sistemi Backend API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "seed": "node src/utils/seeders.js"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "mongodb",
+    "education",
+    "student-management"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "compression": "^1.7.4",
+    "connect-mongo": "^5.0.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "csrf": "^3.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^6.10.0",
+    "express-session": "^1.17.3",
+    "express-validator": "^7.0.1",
+    "geoip-lite": "^1.4.10",
+    "helmet": "^7.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^7.5.0",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.9.4",
+    "sharp": "^0.32.5",
+    "slugify": "^1.6.6",
+    "useragent": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
